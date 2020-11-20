@@ -26,6 +26,12 @@ Python 3.5.2 is required. It is advised to run the following commands within a v
   python -m venv ./venv
   source venv/bin/activate
 ```
+For trajectory optimization of an uncertain spacecraft, install osqp and clone ccscp
+```bash
+  pip install osqp==0.6.0
+  git submodule init
+  git submodule update
+```
 Then, install the package as
 ```bash
   pip install -r requirements.txt

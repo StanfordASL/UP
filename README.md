@@ -4,7 +4,7 @@
 
 Code for the randUP (randomized uncertainty propagation) and robUP (robustified uncertainty propagation) algorithms, containing experiments for our paper at CoRL 2020 (https://arxiv.org/abs/2008.10180).
 
-These reachability analysis algorithms are simple, efficient, and work for **arbitrary continuous dynamical systems** (e.g., neural networks, nonlinear dynamics, ...) with bounded uncertain parameters (initial states, parameters, disturbances, ...). We propose a rigorous interpretation through random set theory, and an adversarial sampling method inspired by recent litterature on robust training of neural networks.
+These reachability analysis algorithms are simple, efficient, and work for arbitrary continuous dynamical systems (e.g., neural networks, nonlinear dynamics, ...) with bounded uncertain parameters (initial states, parameters, disturbances, ...). We propose a rigorous interpretation through random set theory, and an adversarial sampling method inspired by recent litterature on robust training of neural networks.
 
 <p align="center">
   <img src="exps/freeflyer/figs/random_set_prop.png" width="90%"/>

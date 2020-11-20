@@ -17,3 +17,4 @@ tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
 torch==1.5.1
 tqdm==4.51.0
+osqp==0.6.0

@@ -1,3 +1,10 @@
+##
+## Code written by Robert Dyro, Stanford ASL, 2020
+##
+## Reproduces the Self-adaptive Alternating Direction Method of Multipliers (S-ADMM) as described in
+##      Z. Jia, X. Cai, and D. Han. Comparison of several fast algorithms for projection onto anellipsoid.
+##          Journal of Computational and Applied Mathematics, 319(1):320–337, 2017.
+
 ##^# utils and imports #########################################################
 import time
 # ------------

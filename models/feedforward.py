@@ -75,7 +75,7 @@ class FeedForward(nn.Module):
     def forward(self, x, u):
         """
             input:  x, u
-            output: xp
+            output: phi
         """
         z   = torch.cat([x,u], dim=-1)
         phi = self.encoder(z)
@@ -87,8 +87,7 @@ class FeedForwardDynamics():
                               dt=1.):
         """
         Inputs:
-        model: FeedForward object
-        f_nom: function mapping tensors x,u -> to tensor xp
+            model: FeedForward object
         """
         super().__init__()
         self.f_nom = lambda x,u: x
